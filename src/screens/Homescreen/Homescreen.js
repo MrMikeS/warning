@@ -24,13 +24,13 @@ const Homescreen = () => {
             
            
              />
-            <Image source={require('../Homescreen/search.png')} 
+            <Image source={require('./search.png')} 
              style ={{height:30, width:30, marginTop:25, position:"absolute", right:30,}}
                 />
 
                    <View style = {styles.box}>
                        <View style = {styles.inner}>
-                       <Image source={require('../Homescreen/avengers.png')} 
+                       <Image source={require('./avengers.png')} 
                                style ={{height:'100%', width:'100%'}}
                 />
                        </View>
@@ -38,7 +38,7 @@ const Homescreen = () => {
                      </View>
                      <View style = {styles.box}>
                        <View style = {styles.inner}>
-                       <Image source={require('../Homescreen/gladiator.jpg')} 
+                       <Image source={require('./gladiator.jpg')} 
                          style ={{height:'100%', width:'100%'}} />
                        </View>
                       
@@ -46,7 +46,7 @@ const Homescreen = () => {
 
                      <View style = {styles.box}>
                        <View style = {styles.inner}>
-                       <Image source={require('../Homescreen/dragontattoo.jpg')} 
+                       <Image source={require('./dragontattoo.jpg')} 
                            style ={{height:'100%', width:'100%'}} />
                        </View>
                       
@@ -54,7 +54,7 @@ const Homescreen = () => {
 
                      <View style = {styles.box}>
                        <View style = {styles.inner}>
-                       <Image source={require('../Homescreen/jaws.png')} 
+                       <Image source={require('./jaws.png')} 
                            style ={{height:'100%', width:'100%'}} />
                        </View>
                       

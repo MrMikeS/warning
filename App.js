@@ -2,7 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text } from 'react-native';
 
-import Navigation from './src/Navigation';
+import Navigation from './warningapp/src/Navigation';
 
 
 const App = () => {
